@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found | ICPF International</title>
+<meta name="description" content="The page you were looking for could not be found.">
+<meta name="robots" content="noindex">
+<script>
+/* Forward old WordPress-style addresses (e.g. /about/, /donate/, /event/...) to the new pages
+   before anything is shown. Unknown addresses fall through to this "page not found" page. */
+(function(){
+  var PAGES=["about", "programs", "events", "berean-project", "books", "contact", "join-us", "donate"];
+  var p=location.pathname.toLowerCase().replace(/\/index\.(php|html?)$/,'/').replace(/\/+$/,'');
+  var parts=p.split('/').filter(Boolean), to=null;
+  if(!parts.length){to='/';}
+  else if(parts.length===1&&PAGES.indexOf(parts[0])>-1){to='/'+parts[0];}
+  else if(/^(event|events|tribe_events|programmes?)$/.test(parts[0])){to='/events';}
+  else if(/^(home|wp-admin|wp-login\.php|feed|category|tag|author|page)$/.test(parts[0])){to='/';}
+  else if(parts[0]==='donation'||parts[0]==='give'){to='/donate';}
+  if(to&&to!==location.pathname){location.replace(to+location.hash);}
+})();
+</script>
+<link rel="icon" type="image/png" href="/assets/images/favicon-192.png">
+<link rel="apple-touch-icon" href="/assets/images/favicon-192.png">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preload" href="/assets/fonts/manrope-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/fraunces-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/bricolage-grotesque-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a href="/" class="brand" aria-label="ICPF International home">
+      <picture><source srcset="assets/images/logo-mark.webp" type="image/webp"><img src="/assets/images/logo-mark.png" alt="ICPF" width="97" height="44"></picture>
+      <span class="brand-sub">INTERNATIONAL</span>
+    </a>
+    <ul class="menu"><li><a href="/about">About</a></li><li><a href="/programs">Programs</a></li><li><a href="/events">Events</a></li><li><a href="/berean-project">Berean Project</a></li><li><a href="/books">Books</a></li><li><a href="/contact">Contact</a></li></ul>
+    <div class="nav-cta">
+      <a href="/join-us" class="btn btn-ghost" style="color:var(--navy)">Join Us</a>
+      <a href="/donate" class="btn btn-primary">Donate</a>
+      <button class="burger" aria-label="Open menu" aria-expanded="false" id="burger">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile" id="mobile"><ul><li><a href="/about">About</a></li><li><a href="/programs">Programs</a></li><li><a href="/events">Events</a></li><li><a href="/berean-project">Berean Project</a></li><li><a href="/books">Books</a></li><li><a href="/contact">Contact</a></li><li><a href="/join-us">Join Us</a></li><li><a href="/donate">Donate</a></li></ul></nav>
+</header>
+<main id="top">
+<section class="nf">
+  <div class="nf-ring" aria-hidden="true"></div>
+  <div class="wrap nf-grid">
+    <div class="reveal">
+      <div class="crumbs"><a href="/">Home</a><span>/</span><span>Page not found</span></div>
+      <span class="eyebrow">Error 404</span>
+      <h1>This page took <em>a detour.</em></h1>
+      <p class="lead">We couldn't find <code class="nf-path" id="nf-path">that page</code>. It may have moved, or the link may have a typo. These will get you back on track:</p>
+      <div class="nf-links">
+        <a href="/" class="nf-link"><span class="nf-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg></span><span><b>Home</b><small>Start from the beginning</small></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="/events" class="nf-link"><span class="nf-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="3"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span><span><b>Events</b><small>Upcoming camps and programs</small></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="/donate" class="nf-link"><span class="nf-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7z"/></svg></span><span><b>Give</b><small>Support the mission</small></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <p class="nf-help">Still stuck? <a href="/contact">Contact us</a> and we'll point you in the right direction.</p>
+    </div>
+    <div class="nf-art reveal" aria-hidden="true">
+      <div class="nf-num">4<span class="nf-globe"><svg viewBox="0 0 200 200" fill="none" stroke="#4BB7BA" stroke-width="5"><circle cx="100" cy="100" r="88"/><ellipse cx="100" cy="100" rx="44" ry="88"/><line x1="100" y1="12" x2="100" y2="188"/><ellipse cx="100" cy="100" rx="88" ry="30"/><line x1="12" y1="100" x2="188" y2="100"/></svg></span>4</div>
+    </div>
+  </div>
+</section>
+<script>
+(function(){var el=document.getElementById('nf-path');var p=location.pathname;
+ if(el&&p&&p!=='/'&&p.length<80){el.textContent=decodeURIComponent(p);}})();
+</script>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-brand">
+        <picture><source srcset="assets/images/logo-full.webp" type="image/webp"><img class="logo-tile" src="/assets/images/logo-full.png" alt="ICPF International logo" width="160" height="88" loading="lazy" decoding="async"></picture>
+        <p>Enriching and mentoring the next generation with the Gospel of Jesus Christ.</p>
+        <div class="social">
+          <a href="https://www.facebook.com/icpfinternational" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3c-2.8 0-4 1.8-4 4.3V10H7v4h3v8h4v-8h3l1-4h-4V8.6c0-.4.3-.6.6-.6z"/></svg></a>
+          <a href="https://www.instagram.com/icpf_international/" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="https://www.youtube.com/@icpfinternational8582" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 8.2c-.2-1.6-1-2.6-2.6-2.8C17 5 12 5 12 5s-5 0-7.4.4C3 5.6 2.2 6.6 2 8.2 1.8 9.5 1.8 12 1.8 12s0 2.5.2 3.8c.2 1.6 1 2.6 2.6 2.8C7 19 12 19 12 19s5 0 7.4-.4c1.6-.2 2.4-1.2 2.6-2.8.2-1.3.2-3.8.2-3.8s0-2.5-.2-3.8zM10 15V9l5 3-5 3z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h2 class="f-h">Explore</h2>
+        <ul><li><a href="/about">About</a></li><li><a href="/programs">Programs</a></li><li><a href="/events">Events</a></li><li><a href="/berean-project">Berean Project</a></li><li><a href="/books">Books</a></li></ul>
+      </div>
+      <div>
+        <h2 class="f-h">Get involved</h2>
+        <ul><li><a href="/join-us">Join Us</a></li><li><a href="/donate">Donate</a></li><li><a href="/programs#mount-olive">Mount Olive Camp</a></li><li><a href="/contact">Contact</a></li></ul>
+      </div>
+      <div>
+        <h2 class="f-h">Visit</h2>
+        <ul>
+          <li>3132 W Miller Road<br>Garland, TX 75041, U.S.A.</li>
+          <li><a href="tel:+14698971153">+1 469-897-1153</a></li>
+          <li><a href="mailto:info@icpfint.org">info@icpfint.org</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <span>&copy; 2026 ICPF International. All rights reserved.</span>
+      <span>Impacting the new generation.</span>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>

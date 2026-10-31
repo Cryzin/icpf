@@ -1,0 +1,98 @@
+ICPF International website: third-party credits and licenses
+=============================================================
+
+This site's design and code were made for ICPF International. The logo, text and
+book cover images belong to ICPF International and their authors. The third-party
+materials below are used under their licenses.
+
+
+1. ICONS: Lucide (ISC License), including icons derived from Feather (MIT License)
+-----------------------------------------------------------------------------------
+Several interface icons (phone, email, map pin and similar) are drawn from or
+modeled on Lucide icons. https://lucide.dev
+
+ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any purpose
+with or without fee is hereby granted, provided that the above copyright notice
+and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+THIS SOFTWARE.
+
+Icons derived from the Feather project are covered by:
+
+The MIT License (MIT)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+2. FONTS: SIL Open Font License 1.1
+-----------------------------------
+Full license texts are in assets/fonts/ alongside the font files.
+
+  Bricolage Grotesque  Copyright 2022 The Bricolage Grotesque Project Authors
+                       https://github.com/ateliertriay/bricolage
+  Fraunces             Copyright 2020 The Fraunces Project Authors
+                       https://github.com/undercasetype/Fraunces
+  Manrope              Copyright 2019 The Manrope Project Authors
+                       https://github.com/sharanda/manrope
+
+
+3. WORLD MAP DATA
+-----------------
+Country shapes on the home page map: Made with Natural Earth (public domain).
+https://www.naturalearthdata.com
+
+Converted using the world-atlas package (TopoJSON redistribution of Natural Earth):
+
+Copyright 2013-2019 Michael Bostock
+
+Permission to use, copy, modify, and/or distribute this software for any purpose
+with or without fee is hereby granted, provided that the above copyright notice
+and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+THIS SOFTWARE.
+
+
+4. SCRIPTURE
+------------
+Acts 17:11 quoted from the King James Version (public domain in the United States).
+
+
+5. THIRD-PARTY SERVICES
+-----------------------
+Google Maps and Google Forms are services of Google LLC.
+Facebook, Instagram, YouTube, Venmo, Zelle and Amazon are trademarks of their
+respective owners and are referenced only to link to ICPF International's
+accounts or listings.
