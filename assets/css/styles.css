@@ -670,3 +670,8 @@ footer .f-h{font-family:var(--f-sans);font-weight:700;font-size:.75rem;letter-sp
   .country-list .full{display:none}
   .country-list .short{display:inline}
 }
+
+/* 10 countries: center the map in the taller panel; "And growing" fills the last row */
+.map-card{display:flex;flex-direction:column;justify-content:center}
+@media (max-width:1080px){.country-list .grow{grid-column:span 2}}
+@media (max-width:600px){.country-list .grow{grid-column:1/-1}}
